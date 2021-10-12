@@ -7,17 +7,78 @@
     <meta name="description" content="Landing page for artsy">
     <title>Temaoppgave 2</title>
 
-    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/type.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
     <header>
-        header
+        <nav>
+            <ul class='constantNav'>
+                <li class="navHome fsLarge wBold">
+                    <a href="./index.html" aria-label="home">DigiArt</a>
+                </li>
+                <!-- Hidden on desktop -->
+                <li class="burgerMenu">
+                    <a href="javascript:void(0);" aria-label="Open nav menu">
+                        <img src="./assets/svgs/burger.svg" alt="">
+                    </a>
+                </li>
+                <!-- Collapse menu  -->
+                <ul class="navMenu fsLarge">
+                    <li>
+                        <a href="#">Top 100</a>
+                    </li>
+                    <li>
+                        <a href="#">Magazine</a>
+                    </li>
+                    <li>
+                        <a href="#">Awards</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        main
+        <a href="./article.html" class="article">
+            <img src="./assets/images/13220576-16x9-2150x1210.jpeg" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </a>
+        <div class="article">
+            <img src="./assets/images/2454952.webp" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </div>
+        <div class="article">
+            <img src="./assets/images/60706bf6a72d37009ac4bb0f_Sellfy Sell Digital Art Desktop.jpeg" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </div>
+        <div class="article">
+            <img src="./assets/images/Digital_art_direction.png" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </div>
+        <div class="article">
+            <img src="./assets/images/e9a0d7ee-a1be-11e8-85da-eeb7a9ce36e4.jpeg" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </div>
+        <div class="article">
+            <img src="./assets/images/Example-of-computer-illustration-digital-art-oct16.jpeg" alt="" class="articleImage">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nulla ante etiam at. Pretium quis mauris habitant ultrices.</p>
+        </div>
     </main>
     <footer>
         footer
     </footer>
+    <script src="./js/burger.js"></script>
 </body>
 </html>

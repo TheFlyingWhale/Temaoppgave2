@@ -1,0 +1,27 @@
+section {
+    width: 100vw;
+}
+
+figure {
+    width: 100vw;
+}
+
+figure > img {
+    width: 100vw;
+}
+
+.defPad {
+    padding: 0 10px;
+}
+
+.da {
+    margin: auto;
+}
+
+.aHead {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
