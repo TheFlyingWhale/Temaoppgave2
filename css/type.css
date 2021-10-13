@@ -30,6 +30,18 @@
     font-weight: 600;
 }
 
+.articleTitle {
+    font-size: 25px;
+}
+
+.articleIngress {
+    font-size: 16px;
+}
+
+.articleDateAndAuth {
+    font-size: 12.8px;
+}
+
 @media only screen and (min-width: 769px){
     .fsHero {
         font-size: 54.93px;
@@ -54,6 +66,18 @@
     .fsTiny {
         font-size: 14.4px;
     }
+
+    .articleTitle {
+        font-size: 54.93px;
+    }
+    
+    .articleIngress {
+        font-size: 28.13px;
+    }
+    
+    .articleDateAndAuth {
+        font-size: 14.4px;
+    }
 }
 
 h1, h2, h3 {
@@ -62,4 +86,14 @@ h1, h2, h3 {
 
 p {
     font-family: 'Heebo';
+}
+
+.navMenu {
+    font-size: 28px;
+}
+
+@media only screen and (min-width: 769px) {
+    .navMenu {
+        font-size: 18px;
+    }
 }

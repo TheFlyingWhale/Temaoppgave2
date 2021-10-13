@@ -20,8 +20,24 @@ figure > img {
 
 .aHead {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+    figure {
+        width: auto;
+    }
+
+    .aHead {
+        max-width: 860px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+    .articleHeadFigure {
+        width: 100%;
+    }
 }
