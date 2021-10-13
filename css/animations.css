@@ -1,0 +1,12 @@
+.hoverTransformShadow {
+    -webkit-transition: text-shadow 0.2s, transform 0.2s;
+    -moz-transition: text-shadow 0.2s, transform 0.2s;
+    -ms-transition: text-shadow 0.2s, transform 0.2s;
+    -o-transition: text-shadow 0.2s, transform 0.2s;
+    transition: text-shadow 0.2s, transform 0.2s;
+}
+
+.hoverTransformShadow:hover {
+    transform: translateY(-4px);
+    text-shadow: 0px 4px 10px rgba(100, 100, 111, 0.25);
+}
