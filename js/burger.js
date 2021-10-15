@@ -4,5 +4,5 @@ const nav = document.querySelector('nav');
 
 burgerToggle.addEventListener('click', () => {
     nav.classList.toggle('navRow');
-    navMenu.classList.toggle('toggleDisplay')
-})
+    navMenu.classList.toggle('toggleDisplay');
+});
