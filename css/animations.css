@@ -10,3 +10,16 @@
     transform: translateY(-4px);
     text-shadow: 0px 4px 10px rgba(100, 100, 111, 0.25);
 }
+
+.selectTransform {
+    -webkit-transition: width 0.2s;
+    -moz-transition: width 0.2s;
+    -ms-transition: width 0.2s;
+    -o-transition: width 0.2s;
+    transition: width 0.2s;
+}
+
+.selectTransform:focus {
+    width: 80%;
+}
+

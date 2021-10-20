@@ -17,12 +17,15 @@
     <header>
         <nav>
             <ul class='constantNav'>
-                <li class="navHome fsLarge wBold hoverTransformShadow">
-                    <a href="./index.html" aria-label="home">DigiArt</a>
+                <li class="navHome fsMedium wBold">
+                    <a class="hoverTransformShadow" href="./index.html" aria-label="home">DigiArt</a>
                 </li>
+                <form action="" class="searchForm">
+                    <input class="searchInput fsSmall dropShadow selectTransform" type="search" value="search.." onfocus="this.value=''" onblur="this.value==='' ? this.value='search...': null">
+                </form>
                 <!-- Hidden on desktop -->
                 <li class="burgerMenu">
-                    <a href="javascript:void(0);" aria-label="Open nav menu">
+                    <a href="javascript:void(0);" aria-label="Open">
                         <img src="./assets/svgs/burger.svg" alt="">
                     </a>
                 </li>
@@ -43,7 +46,9 @@
                 </ul>
             </ul>
         </nav>
+    </header>
 
+    <main id="articleMain">
         <section class="aHead">
             <figure>
                 <img class="dropShadow articleHeadImage" src="./assets/images/13220576-16x9-2150x1210.jpeg" alt="Girl looking towards the camera with flying fish surrounding her">
@@ -54,28 +59,28 @@
             <p class="articleDateAndAuth da">25. Oktorber • Do: John Stone, Ponnappa Priya</p>
             <hr>
         </section>
-    </header>
-
-    <article>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur egestas magna at imperdiet nisi. Tincidunt lacus ac mattis ut. Ut ut a rhoncus vel sit mattis. Morbi sed bibendum sit in odio id. Integer etiam id fusce vestibulum nunc elementum pretium. Quis cras elementum lorem quis nibh eget imperdiet urna lorem. A, ut leo habitant nisl. Auctor placerat dui aliquam praesent lectus. Congue faucibus amet nulla rutrum vel, ac cras. Morbi tellus sed quisque consequat porta risus at. Ullamcorper a egestas rutrum cursus odio viverra adipiscing nulla orci. </p>
-
-        <h3 class="fsNormal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget semper morbi nunc et.</h3>
-
-        <p>Enim, tincidunt nisl eu egestas amet. Odio a etiam proin vestibulum. Fames sed quis vitae lacus. Mauris et, amet quam adipiscing. Turpis interdum diam dictum senectus. Eu dui consequat, aenean morbi magna egestas risus in morbi. Tristique vitae diam elementum adipiscing amet a. Viverra scelerisque lectus at consequat est, nec. Sagittis, aliquet scelerisque luctus lectus vitae id pulvinar ullamcorper sed. Sollicitudin ultricies sit sollicitudin eu quam. Dapibus donec faucibus nulla scelerisque ipsum. Venenatis, a auctor elit ac viverra nunc lorem risus. Rhoncus vitae quam amet, consectetur. Duis vitae, diam id viverra mauris, dignissim. Potenti sit neque, sit facilisis penatibus. In nunc eu porttitor sit urna tristique.</p>
-
-        <figure>
-            <img src="./assets/images/Example-of-computer-illustration-digital-art-oct16.jpeg" alt="" class="dropShadow">
-            <figcaption class="fsSmall defPad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit nisl feugiat eu mattis aliquet et. Doto: PREMPE KURU</figcaption>
-        </figure>
-
-        <h3 class="fsNormal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget semper morbi nunc et.</h3>
-
-        <p>A risus nam sed nunc et cras elementum eros vel. Adipiscing pellentesque consectetur dictum est quis ullamcorper iaculis. Mauris mi, pretium, euismod lacus et cras nisl scelerisque. Molestie pulvinar quam integer egestas tortor aliquam in. Eu mauris adipiscing felis, montes, nunc sed non tempor nunc. Ipsum diam gravida sapien, mauris nibh. Sed enim sagittis eleifend nulla velit id vitae, adipiscing mattis. Dignissim imperdiet sed faucibus lectus morbi. Quam pretium egestas malesuada varius quis donec. In maecenas eu, tempus aliquam id malesuada ullamcorper magna. Lectus sit feugiat pretium pellentesque nec arcu euismod cursus. A consectetur neque euismod enim suspendisse.</p>
-
-        <p>Etiam viverra risus quis sed consequat imperdiet. Augue ultricies elementum nullam arcu. Amet, elementum fringilla ullamcorper massa duis laoreet. Aliquet sagittis, aenean tempus integer. Scelerisque pellentesque nec aliquam vitae elementum non dui pellentesque. Libero eget proin pellentesque magna vitae sed ipsum. Ut nulla aliquet quis mauris non. Duis et lacus nisi sem sollicitudin vel. Ut ornare proin nunc phasellus proin tortor. Interdum nunc cursus suspendisse morbi. Ac amet amet volutpat morbi vitae ut scelerisque praesent. Facilisis vestibulum ipsum neque eu, elementum dignissim.</p>
-
-    </article>
+    
+        <article>
+    
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur egestas magna at imperdiet nisi. Tincidunt lacus ac mattis ut. Ut ut a rhoncus vel sit mattis. Morbi sed bibendum sit in odio id. Integer etiam id fusce vestibulum nunc elementum pretium. Quis cras elementum lorem quis nibh eget imperdiet urna lorem. A, ut leo habitant nisl. Auctor placerat dui aliquam praesent lectus. Congue faucibus amet nulla rutrum vel, ac cras. Morbi tellus sed quisque consequat porta risus at. Ullamcorper a egestas rutrum cursus odio viverra adipiscing nulla orci. </p>
+    
+            <h3 class="fsNormal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget semper morbi nunc et.</h3>
+    
+            <p>Enim, tincidunt nisl eu egestas amet. Odio a etiam proin vestibulum. Fames sed quis vitae lacus. Mauris et, amet quam adipiscing. Turpis interdum diam dictum senectus. Eu dui consequat, aenean morbi magna egestas risus in morbi. Tristique vitae diam elementum adipiscing amet a. Viverra scelerisque lectus at consequat est, nec. Sagittis, aliquet scelerisque luctus lectus vitae id pulvinar ullamcorper sed. Sollicitudin ultricies sit sollicitudin eu quam. Dapibus donec faucibus nulla scelerisque ipsum. Venenatis, a auctor elit ac viverra nunc lorem risus. Rhoncus vitae quam amet, consectetur. Duis vitae, diam id viverra mauris, dignissim. Potenti sit neque, sit facilisis penatibus. In nunc eu porttitor sit urna tristique.</p>
+    
+            <figure>
+                <img src="./assets/images/Example-of-computer-illustration-digital-art-oct16.jpeg" alt="" class="dropShadow">
+                <figcaption class="fsSmall defPad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit nisl feugiat eu mattis aliquet et. Doto: PREMPE KURU</figcaption>
+            </figure>
+    
+            <h3 class="fsNormal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget semper morbi nunc et.</h3>
+    
+            <p>A risus nam sed nunc et cras elementum eros vel. Adipiscing pellentesque consectetur dictum est quis ullamcorper iaculis. Mauris mi, pretium, euismod lacus et cras nisl scelerisque. Molestie pulvinar quam integer egestas tortor aliquam in. Eu mauris adipiscing felis, montes, nunc sed non tempor nunc. Ipsum diam gravida sapien, mauris nibh. Sed enim sagittis eleifend nulla velit id vitae, adipiscing mattis. Dignissim imperdiet sed faucibus lectus morbi. Quam pretium egestas malesuada varius quis donec. In maecenas eu, tempus aliquam id malesuada ullamcorper magna. Lectus sit feugiat pretium pellentesque nec arcu euismod cursus. A consectetur neque euismod enim suspendisse.</p>
+    
+            <p>Etiam viverra risus quis sed consequat imperdiet. Augue ultricies elementum nullam arcu. Amet, elementum fringilla ullamcorper massa duis laoreet. Aliquet sagittis, aenean tempus integer. Scelerisque pellentesque nec aliquam vitae elementum non dui pellentesque. Libero eget proin pellentesque magna vitae sed ipsum. Ut nulla aliquet quis mauris non. Duis et lacus nisi sem sollicitudin vel. Ut ornare proin nunc phasellus proin tortor. Interdum nunc cursus suspendisse morbi. Ac amet amet volutpat morbi vitae ut scelerisque praesent. Facilisis vestibulum ipsum neque eu, elementum dignissim.</p>
+    
+        </article>
+    </main>
 
     <footer>
         <div class="footerWrapper">

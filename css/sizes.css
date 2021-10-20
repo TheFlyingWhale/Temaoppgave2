@@ -1,6 +1,6 @@
-section {
+/* section {
     width: 100vw;
-}
+} */
 
 figure {
     width: 100vw;
@@ -15,7 +15,7 @@ figure > img {
 }
 
 .da {
-    margin: auto;
+    margin: 0 auto;
 }
 
 .aHead {
@@ -32,9 +32,8 @@ figure > img {
     }
 
     .aHead {
-        max-width: 860px;
+        max-width: 996px;
         margin: 0 auto;
-        margin-top: 100px;
     }
 
     .articleHeadFigure {
