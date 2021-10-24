@@ -492,10 +492,6 @@ article > p, article > h3 {
     box-shadow: rgba(100, 100, 111, 0.40) 0px 7px 29px 0px;
 }
 
-.articleImage {
-
-}
-
 .articleHeadImage {
     max-width: 100%;
 }
@@ -513,11 +509,6 @@ article > p, article > h3 {
     article > figure > img {
         max-width: 640px;
         border-radius: 10px;
-    }
-
-    .articleImage {
-        /* width: 400px; */
-        /* height: 225px; */
     }
 
     .articleHeadImage {
