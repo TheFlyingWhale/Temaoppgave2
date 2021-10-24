@@ -43,22 +43,18 @@ nav {
 
 .constantNav {
     height: 100%;
-    /* display: flex;
-    justify-content: space-between; */
+
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 
     list-style: none;
-    /* background-color: #FAFAFA; */
 }
 
 @media only screen and (min-width: 769px) {
     .constantNav {
         height: auto;
         grid-template-columns: 1fr 2fr 3fr;
-        /* padding-bottom: 25px; */
     }
 }
 
@@ -92,7 +88,6 @@ nav {
 }
 
 .navRow {
-    /* height: auto; */
     grid-template-rows: minmax(56px, max-content) repeat(auto-fill, 200px) 20%;
 }
 
@@ -109,7 +104,6 @@ nav {
     width: 100%;
     height: 100%;
     display: none;
-    /* position: absolute; */
     z-index: 2;
 
     list-style: none;
@@ -194,12 +188,6 @@ main {
     gap: 50px;
 
     justify-content: center;
-
-    
-
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 50px; */
 }
 
 #articleMain {
@@ -211,14 +199,6 @@ main {
 
     display: flex;
     flex-direction: column;
-
-    /* display: grid;
-    
-    grid-template-columns: none;
-    grid-template-rows: 1fr 1fr;
-    gap: 50px;
-
-    justify-content: center; */
 }
 
 @media only screen and (min-width: 769px) {
@@ -227,7 +207,6 @@ main {
         margin: auto;
         margin-top: 106px;
 
-        /* grid-template-columns: repeat(auto-fit, 400px); */
         grid-template-columns: 1fr 1fr;
     }
 
@@ -235,6 +214,7 @@ main {
         padding: 0 25px;
     }
 }
+
 /* Footer styles - Start */
 
 footer {
@@ -249,8 +229,6 @@ footer {
         height: 370px;
 
         display: flex;
-        /* grid-template-columns: repeat(2, 1fr); */
-
     }
 }
 
@@ -332,25 +310,23 @@ a, a:visited, nav a:link {
 }
 
 header {
-    /* max-width: 1350px; */
     height: 56px;
     width: 100%;
-    /* height: 100%; */
+
     margin: 0;
-    /* padding: 0 25px; */
     position: fixed;
     z-index: 2;
+
+    display: flex;
+
     background-color: rgba(250,250,250, 0.75);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     box-shadow: rgba(100, 100, 111, 0.00) 0px 7px 29px 0px;
-
-    display: flex;
 }
 
 @media only screen and (min-width: 769px) {
     header {
-        /* padding: 0 25px; */
         margin-top: 0px;
         backdrop-filter: blur(10px);
         height: 56px;
@@ -525,7 +501,6 @@ article > p, article > h3 {
     grid-row: span 2;
     padding: 25px;
     border-radius: 10px;
-    /* background-color: rgba(250,250,250, 0.75); */
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.40) 0px 7px 29px 0px;
 }
@@ -540,11 +515,8 @@ article > p, article > h3 {
 
 .top10List > li {
     width: 100%;
-    /* height: 50px; */
     padding: 15px;
     border-radius: 10px;
-    /* background-color: rgba(250,250,250, 0.75);
-    box-shadow: rgba(100, 100, 111, 0.40) 0px 7px 29px 0px; */
 }
 
 .top10Image {
