@@ -1,0 +1,99 @@
+.fsHero {
+    font-size: 35.16px;
+}
+
+.fsLarge {
+    font-size: 28px;
+}
+
+.fsMedium {
+    font-size: 25px;
+}
+
+.fsNormal {
+    font-size: 16px;
+}
+
+.fsSmall {
+    font-size: 12.8px;
+}
+
+.fsTiny {
+    font-size: 10.24px;
+}
+
+.wNormal {
+    font-weight: 400;
+}
+
+.wBold {
+    font-weight: 600;
+}
+
+.articleTitle {
+    font-size: 25px;
+}
+
+.articleIngress {
+    font-size: 16px;
+}
+
+.articleDateAndAuth {
+    font-size: 12.8px;
+}
+
+@media only screen and (min-width: 769px){
+    .fsHero {
+        font-size: 54.93px;
+    }
+    
+    .fsLarge {
+        font-size: 54.93px;
+    }
+    
+    .fsMedium {
+        font-size: 28.13px;
+    }
+    
+    .fsNormal {
+        font-size: 18px;
+    }
+    
+    .fsSmall {
+        font-size: 14.4px;
+    }
+    
+    .fsTiny {
+        font-size: 14.4px;
+    }
+
+    .articleTitle {
+        font-size: 54.93px;
+    }
+    
+    .articleIngress {
+        font-size: 28.13px;
+    }
+    
+    .articleDateAndAuth {
+        font-size: 14.4px;
+    }
+}
+
+h1, h2, h3 {
+    font-family: 'Heebo';
+}
+
+p {
+    font-family: 'Heebo';
+}
+
+.navMenu {
+    font-size: 28px;
+}
+
+@media only screen and (min-width: 769px) {
+    .navMenu {
+        font-size: 18px;
+    }
+}
